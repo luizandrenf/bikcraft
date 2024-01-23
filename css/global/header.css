@@ -22,7 +22,6 @@
   display: inline-block;
   padding: 16px 0;
   position: relative;
-
 }
 
 .header-menu a::after {
@@ -36,7 +35,8 @@
   position: absolute;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 
